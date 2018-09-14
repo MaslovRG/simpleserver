@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleServer", "SimpleServer\SimpleServer.csproj", "{32CD4432-493A-4298-9F72-AFB48B415BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleServer.Tests", "SimpleServer.Tests\SimpleServer.Tests.csproj", "{D25A6EBE-7E5F-40C0-AC2C-30EF9D8938B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32CD4432-493A-4298-9F72-AFB48B415BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CD4432-493A-4298-9F72-AFB48B415BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CD4432-493A-4298-9F72-AFB48B415BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CD4432-493A-4298-9F72-AFB48B415BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25A6EBE-7E5F-40C0-AC2C-30EF9D8938B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25A6EBE-7E5F-40C0-AC2C-30EF9D8938B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25A6EBE-7E5F-40C0-AC2C-30EF9D8938B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25A6EBE-7E5F-40C0-AC2C-30EF9D8938B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC8C300-BFB6-459B-9371-FD300BE2C309}
+	EndGlobalSection
+EndGlobal
