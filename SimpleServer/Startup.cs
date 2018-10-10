@@ -62,6 +62,10 @@ namespace SimpleServer
                 routes.MapRoute(
                     "default",
                     "{controller=Home}/{action=Index}/{id?}");
+
+                routes.MapRoute(
+                    "operation",
+                    "{controller}/{action}/{one}/{two}"); 
             });
         }
     }
