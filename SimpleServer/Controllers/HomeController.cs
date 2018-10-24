@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ApiTutorial.Controllers
+namespace SimpleServer.Controllers
 {
     public class HomeController : Controller
     {
@@ -27,7 +27,7 @@ namespace ApiTutorial.Controllers
             if (one == null || two == null)
                 ViewBag.Result = 0;
             else
-                ViewBag.Result = one + two; 
+                ViewBag.Result = one + two;
 
             return View("Operation"); 
         }
