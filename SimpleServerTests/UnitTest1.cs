@@ -12,9 +12,9 @@ namespace SimpleServerTests
         {
             HomeController controller = new HomeController();
 
-            ViewResult result = controller.Summ(2, 2) as ViewResult;
+            ViewResult result = controller.Summ(3, 3) as ViewResult;
 
-            Assert.AreEqual(4, (int)result.ViewData["Result"]); 
+            Assert.AreEqual(6, (int)result.ViewData["Result"]); 
         }
 
         [TestMethod]
