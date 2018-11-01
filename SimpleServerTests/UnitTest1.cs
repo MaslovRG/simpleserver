@@ -28,6 +28,16 @@ namespace SimpleServerTests
         }
 
         [TestMethod]
+        public void SummTest3()
+        {
+            HomeController controller = new HomeController();
+
+            ViewResult result = controller.Summ(10, null) as ViewResult;
+
+            Assert.AreEqual(0, (int)result.ViewData["Result"]); 
+        }
+
+        [TestMethod]
         public void IndexTest()
         {
             HomeController controller = new HomeController();
