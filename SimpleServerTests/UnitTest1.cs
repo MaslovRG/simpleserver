@@ -26,6 +26,16 @@ namespace SimpleServerTests
 
             Assert.AreEqual(0, (int)result.ViewData["Result"]); 
         }
+
+        [TestMethod]
+        public void IndexTest()
+        {
+            HomeController controller = new HomeController();
+
+            ViewResult result = controller.Index() as ViewResult;
+
+            Assert.AreNotEqual(result, null); 
+        }
     }
 
 
