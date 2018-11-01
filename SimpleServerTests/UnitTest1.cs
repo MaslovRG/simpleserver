@@ -54,7 +54,7 @@ namespace SimpleServerTests
 
             ViewResult result = controller.Summ(null, null) as ViewResult;
 
-            Assert.AreEqual(null, (int)result.ViewData["Result"]); 
+            Assert.AreEqual(0, (int)result.ViewData["Result"]); 
         }
 
         [TestMethod]
