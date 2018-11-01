@@ -62,7 +62,7 @@ namespace SimpleServerTests
         {
             HomeController controller = new HomeController();
 
-            ViewResult result = controller.Summ(1, 3) as ViewResult;
+            ViewResult result = controller.Summ(3, 1) as ViewResult;
 
             Assert.AreEqual(4, (int)result.ViewData["Result"]); 
         }
